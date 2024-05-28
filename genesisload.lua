@@ -287,7 +287,7 @@ local function CJUOI_fake_script() -- TextButton_4.LocalScript
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		print("script")	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))()
 	end)
 end
 coroutine.wrap(CJUOI_fake_script)()
@@ -295,7 +295,7 @@ local function CRYX_fake_script() -- TextButton_5.LocalScript
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		print("script")	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
 	end)
 end
 coroutine.wrap(CRYX_fake_script)()
