@@ -1,3 +1,12 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
 -- Instances
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -24,6 +33,9 @@ local TextButton_10 = Instance.new("TextButton")
 local TextButton_11 = Instance.new("TextButton")
 local TextButton_12 = Instance.new("TextButton")
 local TextButton_13 = Instance.new("TextButton")
+local _4 = Instance.new("Folder")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
 
 -- Properties
 
@@ -268,9 +280,39 @@ TextButton_13.TextColor3 = Color3.new(1, 1, 1)
 TextButton_13.TextSize = 14
 TextButton_13.TextWrapped = true
 
+_4.Name = "4"
+_4.Parent = ScrollingFrame
+
+TextButton_14.Parent = _4
+TextButton_14.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_14.BackgroundTransparency = 1
+TextButton_14.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.25, 0, 0.300000012, 0)
+TextButton_14.Size = UDim2.new(0, 60, 0, 30)
+TextButton_14.Font = Enum.Font.GothamMedium
+TextButton_14.Text = "Motorcycle Script"
+TextButton_14.TextColor3 = Color3.new(1, 1, 1)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14
+TextButton_14.TextWrapped = true
+
+TextButton_15.Parent = _4
+TextButton_15.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_15.BackgroundTransparency = 1
+TextButton_15.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0, 0, 0.300000012, 0)
+TextButton_15.Size = UDim2.new(0, 60, 0, 30)
+TextButton_15.Font = Enum.Font.GothamMedium
+TextButton_15.Text = "Good Cop Bad Cop"
+TextButton_15.TextColor3 = Color3.new(1, 1, 1)
+TextButton_15.TextSize = 13
+TextButton_15.TextWrapped = true
+
 -- Scripts
 
-local function UVWBZT_fake_script() -- Frame.UIDrag 
+local function GALGIX_fake_script() -- Frame.UIDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	-- Simple UI dragger (PC Only/Any device that has a mouse) --
@@ -310,24 +352,24 @@ local function UVWBZT_fake_script() -- Frame.UIDrag
 		end
 	end)
 end
-coroutine.wrap(UVWBZT_fake_script)()
-local function DOLFIFM_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(GALGIX_fake_script)()
+local function MLRM_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(DOLFIFM_fake_script)()
-local function HPYSLZ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(MLRM_fake_script)()
+local function QSLFNG_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))()
 	end)
 end
-coroutine.wrap(HPYSLZ_fake_script)()
-local function AKRW_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(QSLFNG_fake_script)()
+local function RNTXP_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -335,84 +377,102 @@ local function AKRW_fake_script() -- TextButton_3.LocalScript
 	--why?
 	end)
 end
-coroutine.wrap(AKRW_fake_script)()
-local function UNJR_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(RNTXP_fake_script)()
+local function NSOJYYF_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
 	end)
 end
-coroutine.wrap(UNJR_fake_script)()
-local function YFAB_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(NSOJYYF_fake_script)()
+local function OUHKX_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Lightning%20Cannon"))()
 	end)
 end
-coroutine.wrap(YFAB_fake_script)()
-local function UWOT_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(OUHKX_fake_script)()
+local function LRGI_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
 	end)
 end
-coroutine.wrap(UWOT_fake_script)()
-local function JITQHSB_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(LRGI_fake_script)()
+local function ASMFJ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Gale%20Fighter"))()
 	end)
 end
-coroutine.wrap(JITQHSB_fake_script)()
-local function OIXKC_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(ASMFJ_fake_script)()
+local function FLGROTD_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
+		DisableFX = true
+	
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Star%20Glitcher"))()
 	end)
 end
-coroutine.wrap(OIXKC_fake_script)()
-local function LNZPISS_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(FLGROTD_fake_script)()
+local function XAMXRBE_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Linked%20Sword"))()
 	end)
 end
-coroutine.wrap(LNZPISS_fake_script)()
-local function FEME_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(XAMXRBE_fake_script)()
+local function SFWUKM_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Dearsister"))()
 	end)
 end
-coroutine.wrap(FEME_fake_script)()
-local function APTTS_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(SFWUKM_fake_script)()
+local function LZTW_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
 	end)
 end
-coroutine.wrap(APTTS_fake_script)()
-local function AJBD_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(LZTW_fake_script)()
+local function VKTT_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
 	end)
 end
-coroutine.wrap(AJBD_fake_script)()
-local function KWUWIB_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(VKTT_fake_script)()
+local function FCKZP_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
 	end)
 end
-coroutine.wrap(KWUWIB_fake_script)()
+coroutine.wrap(FCKZP_fake_script)()
+local function LLFWESN_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neptunian%20V"))()
+	end)
+end
+coroutine.wrap(LLFWESN_fake_script)()
+local function VJSEJLG_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
+	end)
+end
+coroutine.wrap(VJSEJLG_fake_script)()
